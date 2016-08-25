@@ -1,0 +1,152 @@
+body{ 
+	background-color: black;
+	color: #00FF00;
+	font-family: monospace;
+}
+button.sectionButton {
+	width: 100%;
+	background-color: black;
+	color: #00FF00;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: larger;
+	text-align: center;
+	border: 2px solid #00FF00;
+	border-radius: 5px;
+	outline: none;
+	transition: 0.4s;
+}
+button.sectionButton.active, button.sectionButton:hover {
+	background-color: #00FF00;
+	color: black;
+}
+section.sectionContent {
+	padding: 0 18px;
+	background-color: black;
+	color: #00FF00;
+	display: none;
+}
+section.sectionContent.show {
+	display: block;
+}
+#stats, #weapons table {
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#stats {
+	width: 50%;
+}
+#weapons table {
+	border: 2px solid #00FF00;
+	border-collapse: collapse;
+}
+#weapons td, #weapons th {
+	border: solid 1px #00FF00;
+	padding: 1px;
+	text-align: center;
+	vertical-align: center;
+}
+.relativeDiv {
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+.unnaturalCharacteristic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 25%;
+	font-size: 8px;
+	font-weight: bold;
+	color: black;
+}
+#characteristics {
+	border: solid 2px #00FF00;
+	border-collapse: collapse;
+}
+.left, .right {
+	position: absolute;
+	top: -1px;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.left {
+	left: -1px;
+	background-color: #00FF00;
+	color: black;
+}
+.right {
+	left: 50%;
+}
+#characteristics td,
+#characteristics th {
+	border: solid 1px #00FF00;
+	padding: 1px;
+	width: 55px;
+	height: 1.2em;
+	text-align: center;
+	vertical-align: center;
+}
+#gearWrap {
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gearTab {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.gearTab li {
+	float: left;
+	width: 50%;
+}
+.gearTabLinks {
+	width: 100%;
+	background-color: #00FF00;
+	color: black;
+	text-align: center;
+    border: 1px solid #00FF00;
+    border-bottom: none;
+    margin: 0px;
+    padding: 0px;
+}
+.gearTabLinks.active, .gearTabLinks:hover {
+	background-color: black;
+	color: #00FF00;
+}
+.gearTabContent {
+	display: none;
+	border: 1px solid #00FF00;
+	border-top: none;
+	color: #00FF00;
+	background-color: black;
+}
+#personalGear {
+	display: block;
+}
+.gearCategory {
+	color: #00FF00;
+	background-color: black;
+	border: none;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+.gearContent {
+	display: none;
+}
+.gearContent.show {
+	display: block;
+}
